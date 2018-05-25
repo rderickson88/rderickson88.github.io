@@ -1,0 +1,19 @@
+body {
+  background-color: inherit;
+}
+
+h1 {
+  color: black;
+  font-family: impact;
+  text-align: center;
+  font-kerning: auto;
+  font-size: 140;
+  text-shadow: 5px 5px gray;
+}
+
+p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 38;
+  text-align: center;
+}
