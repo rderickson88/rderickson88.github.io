@@ -17,3 +17,8 @@ p {
   font-size: 38;
   text-align: center;
 }
+
+div {
+  display:none;
+  
+}
