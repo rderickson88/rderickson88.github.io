@@ -38,7 +38,7 @@ a:hover {
     width: 80%;
     height: inherit;
     margin-bottom: 1%;
-    padding: 10px;
+    
     background-color: gray;
     border-radius: 10px;
     justify-content: center;
@@ -48,6 +48,7 @@ a:hover {
 
 .topmenu {
     flex: 100%;
+    padding: 10px;
 }
 
 .body-container {
