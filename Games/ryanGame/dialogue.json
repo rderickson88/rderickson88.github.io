@@ -1,0 +1,60 @@
+{
+    "c2array": true,
+    "size": [
+        10,
+        1,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Test Level"
+            ]
+        ],
+        [
+            [
+                "I am Rabbito!"
+            ]
+        ],
+        [
+            [
+                "Welcome to the Orchard Lands"
+            ]
+        ],
+        [
+            [
+                "They are infested with many creatures"
+            ]
+        ],
+        [
+            [
+                "Find as many apple as you can"
+            ]
+        ],
+        [
+            [
+                "Go forth and make haste!"
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}
