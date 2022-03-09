@@ -42,3 +42,7 @@ html, body, canvas {
 	src: url('fonts/arcade.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: TradeGothic;
+	src: url(/styles/TradeGothicLTStd.otf);
+}
