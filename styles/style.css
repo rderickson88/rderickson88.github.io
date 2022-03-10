@@ -32,6 +32,24 @@ a {
 a:hover {
     color: rgb(87, 66, 66, 0.5);
 }
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color:rgb(87, 66, 66, 0.5);
+    box-shadow: 2px 2px rgb(87, 66, 66, 0.1);
+    min-width: 160px;
+    padding: 4px;
+    z-index: 1;
+}
 
 #top {
     display: flex;
