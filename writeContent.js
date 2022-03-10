@@ -1,7 +1,17 @@
 
 
-var sampleText = document.getElementById("gameInfo");
-    sampleText.innerHTML = JSON.parse(text: )
+            
 
-document.write(sampleText);
 
+
+
+   
+
+function callGameContent(gameNum) {
+    const myGameText = JSON.parse(gameContent);
+    const newP = document.createElement("p");
+    const newContent = document.createTextNode(myGameText[0]);
+    newP.appendChild(newContent);
+    document.getElementById("gameContent").appendChild(newP);
+
+}

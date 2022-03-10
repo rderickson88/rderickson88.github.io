@@ -1,7 +1,5 @@
-{
-    "Game": [{
-        "text": "This is some text to go with the game."
-    }, {
-        "text": "This is some more text to go with the game."
-    }]
-}
+[
+    {"Text": "This is Ebbe's Game", "Link": "/games/ryanGame/index.html"},
+    {"Text": "This is Xavier's Game", "Link": "/games/ryanGame/index.html"}
+
+]
