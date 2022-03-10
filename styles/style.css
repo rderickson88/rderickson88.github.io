@@ -8,6 +8,11 @@
     src: url(/styles/TradeGothicLTStd-Bd2.otf);
 }
 
+img {
+    width: 300px;
+    height: auto;
+}
+
 p {
     font-family: TradeGothic, Verdana, sans-serif;
     font-size: 1em;
@@ -51,14 +56,15 @@ a:hover {
     z-index: 1;
 }
 
-#top {
+.top {
     display: flex;
     width: auto;
     height: inherit;
     margin-bottom: 1%;
-    background-color: gray;
+    background-color: rgb(73,197,177);
     border-radius: 10px;
     justify-content: center;
+    align-items: center;
 
 
   
@@ -66,10 +72,16 @@ a:hover {
 }
 
 .topmenu {
-    flex: 100%;
-    padding: 10px;
+    flex: 80%;
+    padding: 5px;
    
 }
+
+.topImage { 
+    flex: 20%;
+    padding: 5px;
+}
+
 
 .body-container {
     display: flex;
@@ -77,16 +89,16 @@ a:hover {
 }
 
 .flex-item-left {
-    flex: 10%;
-    background-color: rgba(220, 220, 220, 0.7);
+    flex: 20%;
+    background-color: rgb(0, 134, 191);
     border-radius: 0.5em;
     padding: 1%;
     margin: 1%;
 }
 
 .flex-item-right {
-    flex: 90%;
-    background-color: rgba(220, 220, 220, 0.3);
+    flex: 80%;
+    background-color: rgb(255, 158, 27);
     border-radius: 1em;
 }
 
@@ -95,6 +107,10 @@ a:hover {
         flex-direction: column;
     }
     p {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 }
+
+
+
+
