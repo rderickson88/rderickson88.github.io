@@ -2,26 +2,42 @@
 <html>
     <head>
         <link rel="stylesheet" href="/styles/style.css">
+        <script src="writeContent.js"></script>
+        <script src="2022gameContent.json"></script>
     </head>
     <body>
-        <div id = "top"> 
+
+        <div class = "top"> 
             <div class = "topmenu"> 
                 <h1>The Bushnell's Digital Learning Arcade<h1>
             </div>
-           
-    </div>
-
-        <div class = "flex-item-left">
-            <a href="2022games.html">2022 Games</a>
-            <div class="dropdown">
-                <p>Mr. E's Pixel Game</p>
-                <div class="dropdown-content"><a href = "/Games/ryanGame/index.html" target="_blank">Play Game</a>
-                </div>
+            <div class = "topImage">
+                <a href ="index.html"><img src="styles/BUSHNELLDL Logo.png"></a>
+                
             </div>
+           
+        </div>
+        
+    <div class = "body-container">
+        <div class = "flex-item-left">
+            <a href="index.html">Home</a>
+            <br>
+            <br>
+            <a onclick="callGameContent(0)">Candy Maze</a>
+            <br>
+            <a onclick="callGameContent(1)">Xavier's Game</a>
+            <br>
+            <a onclick="callGameContent(1)">Fenrir</a>
+           
         </div>
 
         <div class = "flex-item-right">
-            <p>Games Go Here</p>
+           <h1 id = "gameTitle"></h1>
+           <a id = "gameLink" target="_blank" style = "font-size: 2em;"></a>
+           <p id = "gameContent"></p>
+           <h1 id = "editorTitle"></h1>
+           <p id ="gameEditor"></p>
+       
             
         </div>
 
