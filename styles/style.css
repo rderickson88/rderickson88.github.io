@@ -16,7 +16,7 @@ img {
 p {
     font-family: TradeGothic, Verdana, sans-serif;
     font-size: 1em;
-    padding: 1%;
+    padding: 0.3%;
 }
 
 .p1 { 
@@ -103,6 +103,14 @@ a:hover {
     flex: 80%;
     background-color: rgb(255, 158, 27);
     border-radius: 1em;
+}
+
+.flex-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+
 }
 
 @media (max-width: 800px) {
