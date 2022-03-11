@@ -1,6 +1,6 @@
 {
-	"name": "Glen's Game",
-	"short_name": "Glen's Game",
+	"name": "My First Game",
+	"short_name": "My First Game",
 	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
