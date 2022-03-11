@@ -23,17 +23,20 @@
             <a href="index.html">Home</a>
             <br>
             <br>
-            <a onclick="callGameContent()">Ebbe's Game</a>
+            <a onclick="callGameContent(0)">Candy Maze</a>
             <br>
-            <p>Other Games Go here</p>
+            <a onclick="callGameContent(1)">Xavier's Game</a>
+            <br>
+            <a onclick="callGameContent(1)">Fenrir</a>
            
         </div>
 
         <div class = "flex-item-right">
-           <div id = "gameContent">
-  
-           </div>
-           
+           <h1 id = "gameTitle"></h1>
+           <a id = "gameLink" target="_blank" style = "font-size: 2em;"></a>
+           <p id = "gameContent"></p>
+           <h1 id = "editorTitle"></h1>
+           <p id ="gameEditor"></p>
        
             
         </div>
