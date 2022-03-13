@@ -13,6 +13,10 @@ img {
     height: auto;
 }
 
+body {
+    background-color: white;
+}
+
 p {
     font-family: TradeGothic, Verdana, sans-serif;
     font-size: 1em;
@@ -26,14 +30,14 @@ p {
 h1 {
     font-family: TradeGothicBold, Verdana, sans-serif;
     text-align: center;
+    text-shadow: 1px 2px gray;
 }
 
 a {
     font-family: TradeGothic, Verdana, sans-serif;
     color: rgb(87, 66, 66, 1);
-    font-size: 1em;
+    font-size: 1.5em;
     text-decoration: none;
-    padding: 1%;
 }
 
 a:hover {
@@ -66,12 +70,17 @@ a:hover {
     margin-bottom: 1%;
     background-color: rgb(73,197,177);
     border-radius: 10px;
+    box-shadow: 5px 3px rgb(33, 133, 129);
     justify-content: center;
     align-items: center;
+}
 
+.top a {
+    padding: 0%;
+}
 
-  
-    
+.top p, h1 {
+    color: white;
 }
 
 .topmenu {
@@ -82,7 +91,10 @@ a:hover {
 
 .topImage { 
     flex: 20%;
-    padding: 5px;
+    padding: 1.5em;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -95,30 +107,43 @@ a:hover {
     flex: 20%;
     background-color: rgb(0, 134, 191);
     border-radius: 0.5em;
+    box-shadow: 5px 3px rgb(1, 55, 78);
     padding: 1%;
     margin: 1%;
 }
+
 
 .flex-item-right {
     flex: 80%;
     background-color: rgb(255, 158, 27);
     border-radius: 1em;
+    padding: 1%;
+    box-shadow: 5px 3px rgb(219, 129, 12);
 }
 
 .flex-bot {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1%;
+    margin-top: 2%;
 
 }
 
-@media (max-width: 800px) {
-    .flex-container {
-        flex-direction: column;
+@media (max-width: 900px) {
+    .body-container {
+        flex-flow: column;
     }
+    .flex-item-left {
+        width: 50%;
+        align-self: center;
+        text-align: center;
+    }
+
     p {
-        font-size: 0.5em;
+        font-size: 1em;
+    }
+    a {
+        font-size: 1em;
     }
 }
 
