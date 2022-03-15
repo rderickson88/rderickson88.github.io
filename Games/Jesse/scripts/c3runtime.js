@@ -4752,7 +4752,7 @@ self.C3_JsPropNameTable = [
 	{CurseLine2: 0},
 	{CurseLine3: 0},
 	{CurseLine4: 0},
-	{TempButt: 0},
+	{Waaaaa: 0},
 	{Distance: 0},
 	{Orbit: 0},
 	{CrossAirAim: 0},
@@ -5253,6 +5253,7 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() + 1);
 		},
+		() => 0.4,
 		() => 1700,
 		() => 1750,
 		() => 1800,
@@ -5293,7 +5294,7 @@ self.C3_ExpressionFuncs = [
 		() => 150,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0(0, 25);
+			return () => f0(0, 30);
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
