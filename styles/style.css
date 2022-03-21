@@ -23,6 +23,10 @@ p {
     text-align: center;
 }
 
+.contentBox {
+    font-family: TradeGothic, Verdana, sans-serif;
+}
+
 h1 {
     font-family: TradeGothicBold, Verdana, sans-serif;
     text-align: center;
