@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="/styles/style.css">
+        <script src="writeContent.js"></script>
+        <script src="2022gameContent.json"></script>
     </head>
     <body>
 
@@ -21,16 +23,34 @@
             <a href="index.html">Home</a>
             <br>
             <br>
-            <a href = "Games/ryanGame/">Mr E's Pixel Game</a>
+            <a onclick="callGameContent(0)">Ebbe</a>
             <br>
-            <p>Other Games Go here</p>
+            <a onclick="callGameContent(1)">Xavier</a>
+            <br>
+            <a onclick="callGameContent(2)">Jesse</a>
+            <br>
+            <a onClick="callGameContent(3)">Ace</a>
+            <br>
+            <a onClick="callGameContent(4)">Donnie</a>
+            <br>
+            <a onClick="callGameContent(5)">Glen</a>
+            <br>
+            <a onClick="callGameContent(6)">Jacob</a>
+            <br>
+            <a onClick="callGameContent(7)">Luis</a>
+            <br>
+            <a onClick="callGameContent(8)">Lilli</a>
            
         </div>
 
         <div class = "flex-item-right">
-            <p id = "contentBox">
-                <script src="contentBox.js"></script>
-            </p>
+           <h1 id = "gameTitle">Welcome to the Impact Academy Game Arcade!</h1>
+           <a id = "gameLink" target="_blank" style = "font-size: 2em;"></a>
+           <p id = "gameContent">Click on any link to the left to open up a game.</p>
+           <h1 id = "editorTitle"></h1>
+           <p id ="gameEditor"></p>
+          
+       
             
         </div>
 
